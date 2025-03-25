@@ -54,3 +54,28 @@ void insertion()
         arr[j + 1] = temp; // Step 5
     }
 }
+
+void display()
+{
+    cout << endl; //Output baris Kosong
+    cout << "====================================" << endl;
+    cout << "Total Passs = " << n - 1 << endl; // count element movement
+    cout << "====================================" << endl; // Output ke layar
+    cout << "Element Array yang telah disusun" << endl; // Output ke layar
+    cout << "=====================================" << endl; // Output ke layar
+
+    for (int j = 0; j < n; j++)
+    { // Looping dengan j dimulai dari o hingga n-1
+    cout  << arr[j] << endl; // Output ke layar
+    }
+    cout << endl; // Output baris kosong
+}
+
+int main()
+{
+    input();
+    insertion();
+    display();
+    system("Pause");
+    return 0;
+}
