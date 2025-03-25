@@ -12,6 +12,13 @@ void input()
         cin >> n; // memanggil variable inputan n
 
         if (n <= 20)
-        { // Membuat Kondisi n tidak lebih dari 20}
-    }
+        { // Membuat Kondisi n tidak lebih dari 20
+        break;
+        }
+        else
+        {
+            cout << "\nArray yang anda masukkan maksimal 20 Elemen.\n"; // Menampilkan pesan jika data lebih dari 20
+        }
+    
+    }   
 }
